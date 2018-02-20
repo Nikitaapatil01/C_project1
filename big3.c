@@ -1,8 +1,6 @@
- program to find the biggest of three numbers
- */
 #include <stdio.h>
  
-void main()
+big3()
 {
     int num1, num2, num3;
  
