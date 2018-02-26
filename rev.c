@@ -1,21 +1,16 @@
-#include<bits/stdc++.h>
+#include <stdio.h>
+#include <string.h>
  
-// Function to reverse a string
 rev()
 {
-    int n = str.length();
+   char arr[100];
  
-    // Swap character starting from two
-    // corners
-    for (int i=0; i<n/2; i++)
-       swap(str[i], str[n-i-1]);
-}
+   printf("Enter a string to reverse\n");
+   gets(arr);
  
-// Driver program
-rev()
-{
-   string str = "geeksforgeeks";
-   reverseStr(str);
-   cout << str;
+   strrev(arr);
+ 
+   printf("Reverse of the string is \n%s\n", arr);
+ 
    return 0;
 }
