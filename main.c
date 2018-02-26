@@ -2,5 +2,6 @@
 main()
 { 
 big3();
- fact(); 
+fact(); 
+rev();
 }

@@ -1,8 +1,7 @@
-nclude<bits/stdc++.h>
-using namespace std;
+#include<bits/stdc++.h>
  
 // Function to reverse a string
-void reverseStr(string &str)
+rev()
 {
     int n = str.length();
  
@@ -13,7 +12,7 @@ void reverseStr(string &str)
 }
  
 // Driver program
-int main()
+rev()
 {
    string str = "geeksforgeeks";
    reverseStr(str);
